@@ -30,6 +30,10 @@ body {
   color: var(--color-black);
 }
 
+.about-list {
+  display: flex;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -78,6 +82,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--link-hover-color);
   padding-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo {
   font-weight: bold;
@@ -120,6 +126,7 @@ ul {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--color-black);
+  padding-right: 50px;
 }
 .header-link {
   font-weight: 500;
@@ -129,14 +136,17 @@ ul {
 }
 
 .header-navigation {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  padding-top: 32px;
 }
 
 .header-contacts {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--header-color);
+  display: flex;
+  margin-left: auto;
 }
 .header-current {
   color: var(--link-hover-color);
