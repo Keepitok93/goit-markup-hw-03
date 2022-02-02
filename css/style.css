@@ -48,6 +48,11 @@ body {
   padding-bottom: 25px;
 }
 
+.header-cont {
+  display: flex;
+  align-items: center;
+}
+
 .btn {
   font-family: "roboto", sans-serif;
   font-weight: 700;
@@ -81,9 +86,9 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--link-hover-color);
+  display: flex;
+  align-items: center;
   padding-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .logo {
   font-weight: bold;
@@ -114,9 +119,24 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding: 200px 452px 280px;
+  display: flex;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .hero {
   background-color: #2f303a;
+  margin-bottom: 94px;
+}
+
+.about {
+  margin-bottom: 94px;
+}
+.doing {
+  margin-bottom: 94px;
 }
 
 .header-item {
@@ -133,6 +153,13 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-right: 331px;
+}
+.header-row {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-navigation {
@@ -141,13 +168,14 @@ ul {
 
 .header-list {
   display: flex;
-  padding-top: 32px;
+  align-items: center;
 }
 
-.header-contacts {
-  display: flex;
-}
 .header-current {
+  color: var(--link-hover-color);
+}
+.header-row:hover,
+:focus {
   color: var(--link-hover-color);
 }
 .header-link:hover,
@@ -160,6 +188,7 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 50px;
 }
 .about-h3 {
   font-weight: 700;
@@ -168,12 +197,14 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
+  padding-bottom: 10px;
 }
 .about-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-paragraph);
+  padding-right: 30px;
 }
 .header-link-mail {
   font-weight: 500;
@@ -182,11 +213,13 @@ ul {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--color-paragraph);
+  padding-right: 50px;
 }
 .header-link-mail:hover,
 .header-link-mail:focus {
   color: var(--link-hover-color);
 }
+
 .header-link-tel {
   font-weight: 500;
   font-size: 14px;
@@ -194,6 +227,9 @@ ul {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--color-paragraph);
+
+  display: flex;
+  align-items: center;
 }
 .header-link-tel:hover,
 .header-link-tel:focus {
@@ -206,6 +242,8 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--header-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-text {
   font-size: 16px;
@@ -213,11 +251,18 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-paragraph);
-
-  /*----------------Подвал-------------------*/
+  margin-bottom: 124px;
 }
+
+/*----------------Подвал-------------------*/
+
 .footer {
   background-color: var(--footer-color);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
 }
 .footer-link-tel {
   font-weight: 400;
@@ -236,6 +281,7 @@ ul {
   cursor: pointer;
   color: var(--color-white);
   color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 9px;
 }
 .footer-link-mail:hover,
 .footer-link-mail:focus {
@@ -266,6 +312,8 @@ ul {
   letter-spacing: 0.03em;
   font-style: normal;
   color: var(--color-white);
+  padding-top: 20px;
+  padding-bottom: 9px;
 }
 .btn-nav-prtf {
   font-family: "roboto", sans-serif;
@@ -276,16 +324,15 @@ ul {
   text-align: center;
   cursor: pointer;
   color: var(--header-color);
-  /* height: 38px;
-  width: 73px;
-  left: 495px;
-  top: 174px; */
   border-radius: 4px;
 }
 .btn-nav-prtf:hover,
 .btn-nav-prtf:focus {
   color: var(--color-white);
   background: var(--link-hover-color);
+}
+
+.btn-item {
 }
 
 .h3-about {
@@ -302,4 +349,11 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--color-paragraph);
+}
+
+/*----------------Портфолио---------------*/
+.btn-list {
+  display: flex;
+}
+.list-about {
 }

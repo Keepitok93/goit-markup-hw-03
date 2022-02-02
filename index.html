@@ -23,7 +23,7 @@
   <body>
     <!--Шапка-->
     <header class="header link">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a
             href="./index.html"
@@ -37,14 +37,14 @@
               <a href="" class="header-current link">Студия</a>
             </li>
             <li class="header-item">
-              <a href="./portfolio.html" class="header-link link">Портфолио</a>
+              <a href="./portfolio.html" class="header-row link">Портфолио</a>
             </li>
             <li class="header-item">
               <a href="" class="header-link link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts">
+        <ul class="header-cont">
           <li>
             <a href="mailto:info@devstudio.com" class="header-link-mail link"
               >info@devstudio.com</a
@@ -63,7 +63,8 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">
-            Эффективные решения <br />
+            Эффективные решения
+            <br />
             для вашего бизнеса
           </h1>
           <button type="button" class="btn">Заказать услугу</button>
@@ -200,12 +201,18 @@
           >Web <span class="footer-logo">Studio</span></a
         >
         <address class="adres">г. Киев, пр-т Леси Украинки, 26</address>
-        <a href="mailto:info@example.com" class="footer-link-mail link"
-          >info@example.com</a
-        >
-        <a href="tel:+380961111111" class="footer-link-tel link"
-          >+38 096 111 11 11</a
-        >
+        <ul>
+          <li>
+            <a href="mailto:info@example.com" class="footer-link-mail link"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="footer-link-tel link"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
