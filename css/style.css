@@ -33,6 +33,12 @@ body {
 .about-list {
   display: flex;
 }
+.about-item {
+  margin-right: 30px;
+}
+.about-item:last-child {
+  margin-right: 0;
+}
 
 .container {
   width: 1200px;
