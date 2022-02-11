@@ -158,7 +158,8 @@ ul {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding: 200px 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .section {
@@ -241,7 +242,7 @@ ul {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--color-paragraph);
-  padding-right: 50px;
+  margin-right: 50px;
 }
 .header-link-mail:hover,
 .header-link-mail:focus {
@@ -284,8 +285,8 @@ ul {
 }
 
 .team-div {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*----------------Подвал-------------------*/
@@ -314,7 +315,6 @@ ul {
   cursor: pointer;
   color: var(--color-white);
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
 }
 .footer-link-mail:hover,
 .footer-link-mail:focus {
@@ -323,6 +323,10 @@ ul {
 .footer-link-tel:hover,
 .footer-link-tel:focus {
   color: var(--link-hover-color);
+}
+
+.footer-m-t {
+  margin-bottom: 9px;
 }
 .footer-link-logo {
   font-weight: bold;
@@ -359,9 +363,12 @@ ul {
   letter-spacing: 0.06em;
   text-align: left;
   color: var(--header-color);
+}
+.resource-img {
   padding-top: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
   padding-left: 24px;
+  padding-right: 24px;
 }
 .text-about {
   font-size: 16px;
@@ -369,8 +376,6 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--color-paragraph);
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
 
 /*----------------Портфолио---------------*/
@@ -397,6 +402,10 @@ ul {
   border-radius: 4px;
   align-items: center;
   background-color: var(--color-btn-prt);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .btn-nav-prtf:focus,
